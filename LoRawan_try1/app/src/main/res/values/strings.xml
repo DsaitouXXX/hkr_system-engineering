@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">LoRawan_try1</string>
+    <string name="sign_in_button">Sign In</string>
+    <string name="sign_up_button">Sign Up</string>
+    <string name="welcome_text">Welcome!</string>
+    <string name="choose_language">Please choose the language</string>
+</resources>
