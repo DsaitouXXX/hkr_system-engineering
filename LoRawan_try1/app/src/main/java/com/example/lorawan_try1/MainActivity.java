@@ -8,33 +8,25 @@ import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
 
-    private Button mButton_signin;
-    private Button mButton_signup;
+    private Button mButton_login;
     @Override
 
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        if (getSupportActionBar() != null){
+            getSupportActionBar().hide();
+        }
 
-
-        mButton_signin = (Button)findViewById(R.id.button_signin);
-        mButton_signin.setOnClickListener(new View.OnClickListener() {
+        mButton_login = (Button)findViewById(R.id.button_login);
+        mButton_login.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 // Start sign_inActivity
-                Intent intent = new Intent(MainActivity.this, sign_in.class);
+                Intent intent = new Intent(MainActivity.this, log_in.class);
                 startActivity(intent);
             }
         });
 
-        mButton_signup = (Button)findViewById(R.id.button_signup);
-        mButton_signup.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                // Start sign_inActivity
-                Intent intent = new Intent(MainActivity.this, sign_up.class);
-                startActivity(intent);
-            }
-        });
     }
 }
