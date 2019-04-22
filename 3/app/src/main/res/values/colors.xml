@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="colorTextViewNormal">#7F7F7F</color>
+    <color name="colorTextViewPress">#1B940A</color>
+
+
+    <color name="colorLightGreen">#8DC33B</color>
+    <color name="colorTextGrey">#A29494</color>
+
+    <color name="trashbin_full">#E7493F</color>
+    <color name="trashbin_middle">#DBAA1E</color>
+    <color name="trashbin_empty">#8ABF36</color>
+
+    <color name="icon_color">#FF5722</color>
+    <color name="background_grey">#EBEBEB</color>
+    <color name="colorPrimary0">#455399</color>
+    <color name="colorPrimaryDark0">#455399</color>
+    <color name="colorAccent0">#00c6ae</color>
+    <color name="msg_no_notes">#999</color>
+    <color name="hint_enter_note">#89c3c3c3</color>
+    <color name="timestamp">#858585</color>
+    <color name="note_list_text">#232323</color>
+</resources>

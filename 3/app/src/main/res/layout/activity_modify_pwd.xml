@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:id="@+id/MOD_PWD"
+        android:layout_width="match_parent"
+        android:layout_height="59dp"
+        android:background="@color/colorLightGreen"
+        android:gravity="center_vertical"
+        android:text="  MODIFY PASSWORD"
+        android:textColor="#FFFFFF"
+        android:textSize="23sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/pwd_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="monospace"
+        android:text="@string/pwd_1"
+        android:textColor="@color/colorLightGreen"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/MOD_PWD" />
+
+    <EditText
+        android:id="@+id/oldpwd"
+        android:layout_width="333dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/pwd_1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        tools:layout_editor_absoluteX="0dp"
+        android:inputType="textPassword"/>
+
+    <TextView
+        android:id="@+id/pwd_2"
+        android:layout_width="333dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:fontFamily="monospace"
+        android:text="@string/pwd_2"
+        android:textColor="@color/colorLightGreen"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/MOD_PWD"
+        />
+
+    <EditText
+        android:id="@+id/newpwd1"
+        android:layout_width="333dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/pwd_2"
+        tools:layout_editor_absoluteX="0dp"
+        android:inputType="textPassword"/>
+
+    <TextView
+        android:id="@+id/pwd_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="188dp"
+        android:fontFamily="monospace"
+        android:text="@string/pwd_3"
+        android:textColor="@color/colorLightGreen"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/MOD_PWD" />
+
+    <EditText
+        android:id="@+id/newpwd2"
+        android:layout_width="333dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/pwd_3"
+        tools:layout_editor_absoluteX="0dp"
+        android:inputType="textPassword"/>
+
+    <Button
+        android:id="@+id/buttonpwd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="404dp"
+        android:layout_marginRight="160dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="@color/colorLightGreen"
+        android:text="FINISH"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:fontFamily="monospace"
+        android:textStyle="bold"/>
+
+</android.support.constraint.ConstraintLayout>

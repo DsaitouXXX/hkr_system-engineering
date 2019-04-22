@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <TextView
+        android:id="@+id/MOD_EMAILADD"
+        android:layout_width="match_parent"
+        android:layout_height="59dp"
+        android:background="@color/colorLightGreen"
+        android:gravity="center_vertical"
+        android:text="  MODIFY EMAIL ADDRESS"
+        android:textColor="#FFFFFF"
+        android:textSize="23sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/email_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:fontFamily="monospace"
+        android:text="@string/email_1"
+        android:textColor="@color/colorLightGreen"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/MOD_EMAILADD" />
+
+    <EditText
+        android:id="@+id/enetr_new_emailadd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        app:layout_constraintTop_toBottomOf="@id/email_1"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <TextView
+        android:layout_width="342dp"
+        android:layout_height="76dp"
+        android:layout_marginLeft="12dp"
+        android:gravity="left"
+        android:text="*We will sent an email with a verification code to your email address. Please go to your email address to check and enter the verification code then."
+        android:textColor="@color/colorTextGrey"
+        android:textSize="14sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/enetr_new_emailadd" />
+
+    <Button
+        android:id="@+id/pwd_send"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="272dp"
+        android:layout_marginRight="24dp"
+        android:background="@color/colorLightGreen"
+        android:fontFamily="monospace"
+        android:text="send"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/code_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="192dp"
+        android:fontFamily="monospace"
+        android:text="@string/code_1"
+        android:textColor="@color/colorLightGreen"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/MOD_EMAILADD" />
+
+    <EditText
+        android:id="@+id/emailadd_verify_code"
+        android:layout_width="238dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="176dp"
+        android:layout_marginEnd="60dp"
+        android:layout_marginRight="60dp"
+        android:layout_marginLeft="0dp"
+        app:layout_constraintBottom_toBottomOf="@+id/pwd_send"
+        app:layout_constraintEnd_toStartOf="@+id/pwd_send"
+        app:layout_constraintTop_toBottomOf="@id/email_1"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/emailadd_verify"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="420dp"
+        android:layout_marginRight="160dp"
+        android:background="@color/colorLightGreen"
+        android:fontFamily="monospace"
+        android:text="verify"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</android.support.constraint.ConstraintLayout>

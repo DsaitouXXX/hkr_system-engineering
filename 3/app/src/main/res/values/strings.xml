@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">3</string>
+    <string name="log_in_button">Log In</string>
+    <string name="sign_up_button">Sign Up</string>
+    <string name="welcome_text">Welcome!</string>
+    <string name="choose_language">Please choose the language</string>
+
+    <string name="pwd">Password</string>
+    <string name="email">Email Address</string>
+    <string name="title_home">home</string>
+    <string name="title_message">message</string>
+    <string name="title_name">LoRaWan System</string>
+    <string name="home_text">Home</string>
+    <string name="message_text">Message</string>
+    <string name="to_tralist">Trashbin List</string>
+    <string name="to_setting">Settings</string>
+
+    <string name="mod_pwd">Modify Password</string>
+    <string name="mod_emailadd">Modify Email Address</string>
+    <string name="mod_phone">Modify Phone Number</string>
+    <string name="log_out0">LOG OUT</string>
+    <string name="pwd1">Enter your new password.</string>
+    <string name="pwd2">Confirm your new password.</string>
+
+
+    <string name="pwd_1">Enter Your Old Password:</string>
+    <string name="pwd_2">Enter Your New Password:</string>
+    <string name="pwd_3">Confirm Your New Password:</string>
+
+    <string name="email_1">Enter Your New Email Address:</string>
+    <string name="code_1">The Verification Code</string>
+</resources>
